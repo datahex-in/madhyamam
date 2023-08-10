@@ -247,18 +247,22 @@ a {
 .footer-facebook:hover {
   background-color: var(--facebook);
   border-radius: 5px;
+  padding: 0.3em;
 }
 .footer-twitter:hover {
   background-color: var(--twitter);
   border-radius: 5px;
+  padding: 0.3em;
 }
 .footer-linkedin:hover {
   background-color: var(--linkedin);
   border-radius: 5px;
+  padding: 0.3em;
 }
 .footer-instagram:hover {
   background-color: var(--instagram);
   border-radius: 5px;
+  padding: 0.3em;
 }
 .footer-privacy p {
   color: #fff;
