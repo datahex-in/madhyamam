@@ -33,6 +33,13 @@ a {
   border: none;
   background: #176ac0;
 }
+.header-para::first-letter {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: var(--font-playfair);
+  color: #1da1f2;
+}
 .header-para {
   margin: auto;
   width: 80%;
@@ -137,7 +144,7 @@ a {
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
-    line-height: 150%; /* 28.6px */
+    line-height: 132%; /* 28.6px */
   }
   .header-section-title h2 {
     width: 100%;
