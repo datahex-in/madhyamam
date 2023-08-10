@@ -122,6 +122,10 @@ a {
   font-weight: 300;
   line-height: 130%; /* 28.6px */
 }
+#btn-register-show {
+  margin-top: 1.5em;
+  visibility: hidden;
+}
 @media (max-width: 700px) {
   .header-para {
     margin: auto;
@@ -130,7 +134,7 @@ a {
     color: #000;
     text-align: center;
     font-family: var(--font-inter);
-    font-size: 12px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 300;
     line-height: 150%; /* 28.6px */
@@ -139,7 +143,7 @@ a {
     width: 100%;
     color: #176ac0;
     font-family: var(--font-playfair);
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 110%; /* 55.715px */
@@ -150,11 +154,19 @@ a {
     text-align: center;
     color: #176ac0;
     font-family: var(--font-playfair);
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 110%; /* 55.715px */
   }
+  #btn-register-hide {
+    display: none;
+  }
+  #btn-register-show {
+    margin-top: 1.5em;
+    visibility: visible;
+  }
+
   .header-btn-register {
     color: #fff;
     font-family: var(--font-playfair);
@@ -179,6 +191,17 @@ a {
   }
   .header-btn-register {
     position: relative;
+    color: #fff;
+    font-family: var(--font-playfair);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    background: var(--blue);
   }
   .header-btn-medal {
     position: absolute;
@@ -210,6 +233,13 @@ a {
     position: absolute;
     top: 10px;
     right: 20px;
+  }
+  #btn-register-hide {
+    display: none;
+  }
+  #btn-register-show {
+    margin-top: 1.5em;
+    visibility: visible;
   }
 }
 
