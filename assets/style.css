@@ -35,7 +35,7 @@ a {
 }
 .header-para::first-letter {
   text-transform: capitalize;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 600;
   font-family: var(--font-playfair);
   color: #1da1f2;
@@ -146,6 +146,13 @@ a {
     font-weight: 300;
     line-height: 132%; /* 28.6px */
   }
+  .header-para::first-letter {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--font-playfair);
+    color: #1da1f2;
+  }
   .header-section-title h2 {
     width: 100%;
     color: #176ac0;
@@ -235,11 +242,11 @@ a {
     left: -90px;
   }
   .header-btn-arrow {
-    font-size: 1em;
+    font-size: 0.5em;
     font-weight: 100;
     color: #fff;
     position: absolute;
-    top: 10px;
+    top: 8px;
     right: 20px;
   }
 }
